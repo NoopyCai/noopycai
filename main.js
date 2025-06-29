@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         if (scrollTop > lastScrollTop && scrollTop > header.offsetHeight) {
             // Scroll Down
-            gsap.to(header, { top: -100, duration: 0.3 });
+            gsap.to(header, { top: -300, duration: 0.3 });
         } else {
             // Scroll Up
             gsap.to(header, { top: 0, duration: 0.3 });
