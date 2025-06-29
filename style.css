@@ -118,6 +118,7 @@ nav {
 .nav-link {
     color: var(--primary-color);
     text-decoration: none;
+    font-family: var(--font-display);
     font-weight: 400;
     font-size: 1.1rem;
     position: relative;
@@ -535,6 +536,7 @@ h2::after {
     color: var(--secondary-color);
     background: var(--background-color);
     padding: 0 0.5rem;
+    border-radius: 8px;
 }
 
 .cta-button {

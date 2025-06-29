@@ -164,21 +164,21 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: '專案一：電商網站',
             description: '使用原生JS實現的響應式電商網站，包含購物車功能。這是一個展示前端開發技能的綜合性專案。',
-            image: 'https://picsum.photos/seed/project1/600/400',
+            image: './image/icon.png',
             demoLink: '#',
             githubLink: '#'
         },
         {
             title: '專案二：任務管理工具',
             description: '一個使用 React 和 Node.js 開發的任務管理工具，支援任務的增刪改查，並具備使用者身份驗證功能。',
-            image: 'https://picsum.photos/seed/project2/600/400',
+            image: './image/icon.png',
             demoLink: '#',
             githubLink: '#'
         },
         {
             title: '專案三：部落格平台',
             description: '基於 Next.js 搭建的靜態網站生成個人部落格，支援 Markdown 語法，並整合了 Disqus 評論系統。',
-            image: 'https://picsum.photos/seed/project3/600/400',
+            image: './image/icon.png',
             demoLink: '#',
             githubLink: '#'
         },
